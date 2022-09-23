@@ -531,7 +531,7 @@ body {
 
 .rules__block {
     background: #fff;
-    padding: 56px 0 177px 93px;
+    padding: 130px 0 177px 93px;
     width: 920px;
     border-radius: 56px 56px 56px 56px;
     color: #21201f;
@@ -637,3 +637,66 @@ body {
     background-image: url("https://avatars.mds.yandex.net/get-lpc/1370085/ee43338c-db8c-44a5-982e-e9372ae4028c/orig");
     background-repeat: no-repeat;
 }
+
+.rules__container {
+    padding-top: 370px;
+}
+
+.video__block {
+    position: absolute;
+    right: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    width: 734px;
+          height: 414px;
+          border-radius: 32px;
+          right: 0;
+          top: 0;
+          border: none;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination {
+    position: relative;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -20px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #21201f;
+  }
+
+  .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+  }
